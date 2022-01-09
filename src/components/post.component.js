@@ -1,7 +1,8 @@
 import {Component} from "../core/component";
 
-export class CreateComponent extends Component {
+export class PostComponent extends Component {
     constructor(id) {
         super(id);
     }
+
 }
