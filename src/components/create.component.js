@@ -26,8 +26,8 @@ function submitHandler(event) {
             ...this.form.value()
         }
 
+        this.form.clear()
+
         console.log('Submit', formData, this.form.value())
-    } else {
-        console.warn('form is invalid')
     }
 }
